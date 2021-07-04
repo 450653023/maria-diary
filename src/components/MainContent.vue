@@ -1,8 +1,7 @@
 <template>
   <div class="main bottomspace">
     <div class="main_hd">
-      <img class="top-video-img" src="../assets/img/top-video.png" />
-      <img class="play-lg" src="../assets/img/play-lg.png" />
+      <img class="top-video-img" src="../assets/img/banner.jpg" />
     </div>
     <div class="main_bd">
       <p class="title">原来产后抑郁症和产后情绪低落的区别在这里！</p>

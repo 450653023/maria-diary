@@ -3,7 +3,7 @@
     <div class="mask" @click="closeModal"></div>
     <div class="share-dialog">
       <div class="dialog_hd">
-        <span>腾讯医典</span>
+        <span>Maria's Diary</span>
         <i class="iconfont icon-close" @click="closeModal"></i>
       </div>
       <div class="dialog_bd">

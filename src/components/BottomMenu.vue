@@ -1,6 +1,13 @@
 <template>
-  <div class="bottom-menu">
-    <div class="menu-item" v-bind:class="{ current: isClickPraise }"
+  <div>
+    <router-link class="item" to="/PageOne">主页</router-link>
+    <router-link class="item" to="/PageTwo">PageTwo</router-link>
+    <div class="item" @click="clickShare">
+      <i class="iconfont icon-fenxiang"></i>
+      <span>分享</span>
+    </div>
+
+    <!-- <div class="menu-item" v-bind:class="{ current: isClickPraise }"
       @click="clickPraise">
       <i class="iconfont icon-dianzan"></i>
       <i class="iconfont icon-dianzan2"></i>
@@ -12,10 +19,7 @@
       <i class="iconfont icon-shoucang3"></i>
       <span>{{words}}</span>
     </div>
-    <div class="menu-item" @click="clickShare">
-      <i class="iconfont icon-fenxiang"></i>
-      <span>分享</span>
-    </div>
+-->
   </div>
 </template>
 
@@ -53,5 +57,12 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/css/font/font";
-@import "../assets/css/widget/bottom-menu";
+
+.item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid green;
+}
 </style>
